@@ -36,7 +36,7 @@ allprojects {
         app:secondaryProgressColor="@color/colorCenter"  
         app:strokeWidth="10dp" />  
   
-  
+  ![Optional Text](../master/pic1.jpg)
   
   
 
