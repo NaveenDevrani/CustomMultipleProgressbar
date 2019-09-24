@@ -1,4 +1,4 @@
-package com.devcoder.custommultipleprogressbar;
+package com.devcoder.customprogressbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
