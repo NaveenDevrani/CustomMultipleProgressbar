@@ -1,21 +1,23 @@
 ## CustomMultipleProgressbar  
 
 # Step 1. Add the JitPack repository to your build file   
-
+```
 allprojects {  
 	  	repositories {  
 			...  
 		  	maven { url 'https://jitpack.io' }  
 	 	}  
-	 }    
+	 }
+```
    
  # Step 2. Add the dependency  
+ ```
  	dependencies {
 		implementation 'com.github.NaveenDevrani:customMultipleProgressbar:1.0'
 	}  
-  
+  ```
 ## step 3 add in Xml 
-
+```
 <com.naveen.custommultpleprogressbars.CustomProgressbar  
         android:id="@+id/timer1"  
         android:layout_width="200dp"  
@@ -35,7 +37,7 @@ allprojects {
         app:secondaryProgress="70"  
         app:secondaryProgressColor="@color/colorCenter"  
         app:strokeWidth="10dp" />  
-  
+  ```
   ![Optional Text](../master/demo.png)
   
   Copyright 2018 Dev
